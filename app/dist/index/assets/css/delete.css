@@ -1,0 +1,21 @@
+
+.delete{
+    background: #aa1313;
+}
+
+.delete__title{
+    font-size: 3rem;
+    padding: 1.25rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+
+.delete__update-button{
+    font-size: 1.25rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background: #db1e1e;
+    color: white;
+    padding: 0.5rem;
+}

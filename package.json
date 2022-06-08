@@ -1,0 +1,12 @@
+{
+  "name": "pjct-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

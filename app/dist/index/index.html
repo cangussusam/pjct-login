@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pjct-Login</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/get.css">
+    <link rel="stylesheet" href="assets/css/post.css">
+    <link rel="stylesheet" href="assets/css/delete.css">
+
+</head>
+<body>
+
+    <div class="receive">
+        <div class="receive__title">
+            <h1 class="receive__h1">Receber dados</h1>
+        </div>
+
+        <div class="receive container">
+            <div class="update">
+                <button class="get__update-button">Atualizar dados</button>
+                
+                <input type="text" class="update__input" list="get-names">
+                <datalist id="get-names"></datalist>
+            </div>
+
+            <div class="results">
+                <table class="results__table">
+                    <tbody class="results__body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="submit">
+        
+        <div class="submit__title">
+            <h1 class="submit__h1">Enviar dados</h1>
+        </div>
+
+        <div class="submit container">
+            <form class="form container" id="submit__form">
+                <div class="block">
+                    
+                    <label for="name" class="form__label">Nome</label>
+                    <input data-type="name" required type="text" class="form__input" id="name" placeholder="João dos Santos">
+                    
+                    <label for="age" class="form__label">Aniversário</label>
+                    <input data-type="age" required type="date" class="form__input" id="age">
+
+                    <label for="cpf" class="form__label">CPF</label>
+                    <input data-type="cpf" required type="text" class="form__input" id="cpf" placeholder="123.456.789-00" pattern="[\d]{3}.?[\d]{3}.?[\d]{3}-?[\d]{2}">
+                    
+                    <label for="phone" class="form__label">Telefone</label>
+                    <input  data-type="phone" required type="text" class="form__input" id="phone" placeholder="19 94444-4444" pattern="[\d]{2}\s?[\d]{5}-?[\d]{4}">
+
+                    <label for="country" class="form__label">País</label>
+                    <input  data-type="country" required type="text" class="form__input" id="country">
+
+                </div>
+
+                <div class="block">
+                
+                    <label for="zipcode" class="form__label">CEP</label>
+                    <input data-type="zipcode" required type="text" class="form__input" id="zipcode" placeholder="12345-000" pattern="[\d]{5}-?[\d]{3}">
+                    
+                    <label for="street" class="form__label">Rua</label>
+                    <input data-type="street" required type="text" class="form__input" id="street" placeholder="Avenida Castelo Branco">
+
+                    <label for="city" class="form__label">Cidade</label>
+                    <input data-type="city" required type="text" class="form__input" id="city">
+                    
+                    <label for="state" class="form__label">Estado</label>
+                    <input data-type="state" required type="text" class="form__input" id="state">
+                    
+                    <label for="s-number" class="form__label">Número</label>
+                    <input data-type="s-number" required type="text" class="form__input" id="s-number" placeholder="142">
+                </div>
+            </form>
+        </div>
+
+        <div class="form__submit">
+            <button form="submit__form" class="submit__button">Enviar Dados</button>
+        </div>
+
+    </div>
+
+    <div class="delete">
+        <div class="delete container">
+            <div class="delete__title">
+                <h1 class="delete__h1">Deletar usuário</h1>
+            </div>
+
+            <div class="delete__update">
+                <button class="delete__update-button">Atualizar dados</button>
+                
+                <input type="text" class="delete__update-input" list="delete-names">
+                <datalist id="delete-names"></datalist>
+            </div>
+            
+            <div class="delete__user">
+                <button class="delete__user-button">Deletar usuário</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+   
+</body>
+</html>

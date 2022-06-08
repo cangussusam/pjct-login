@@ -1,0 +1,53 @@
+
+.submit{
+    background: #049410
+}
+
+.submit__h1{
+    font-size: 3rem;
+    padding: 1.25rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.submit.container{
+    background: #39d146;
+    margin: 0 8rem;
+    border-radius: 10px;
+}
+
+.form__label{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form__input{
+    font-size: 1.35rem;
+    width: 25rem;
+}
+
+.form.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.5rem;
+}
+
+.form__submit{
+    text-align: center;
+}
+
+.submit__button{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin: 1rem;
+}

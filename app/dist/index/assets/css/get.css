@@ -1,0 +1,66 @@
+body{
+    font-family: 'Arvo', sans-serif;
+
+}
+
+.receive{
+    background: #1C5D99;
+}
+
+.receive__title{
+    font-size: 3rem;
+    padding: 1.25rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.receive.container{
+    display: flex;
+}
+
+.update{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 4rem 18rem 4rem;
+}
+
+.get__update-button{
+    font-size: 1.25rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background: #4BC0D9;
+    color: white;
+    padding: 0.5rem;
+}
+
+.update__input{
+    font-size: 1.25rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    margin-bottom: 7rem;
+    background-color: #4BC0D9;
+    border-radius: 10px;
+    width: 50rem;
+}
+
+.results__table{
+    margin: 2rem;
+}
+
+.tbody__keys, .tbody__values{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 100rem;
+    padding: 0.15rem 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.tbody__values{
+    color: black
+}
